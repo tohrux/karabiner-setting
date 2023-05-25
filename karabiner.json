@@ -41,7 +41,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": ";",
+                                    "key_code": "semicolon",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
@@ -295,7 +295,18 @@
                 "delay_milliseconds_before_open_device": 1000
             },
             "selected": true,
-            "simple_modifications": [],
+            "simple_modifications": [
+                {
+                    "from": {
+                        "key_code": "end"
+                    },
+                    "to": [
+                        {
+                            "key_code": "end"
+                        }
+                    ]
+                }
+            ],
             "virtual_hid_keyboard": {
                 "country_code": 0,
                 "indicate_sticky_modifier_keys_state": true,
